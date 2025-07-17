@@ -26,5 +26,5 @@ jobs:
       run: docker buildx ls
 
     - name: Run main.Go
-      run: go run ./main.go
+      run: docker compose build
  
