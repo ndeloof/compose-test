@@ -1,0 +1,6 @@
+services:
+  hello:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["echo", "Hello from Compose SDK!"]
